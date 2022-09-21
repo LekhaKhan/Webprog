@@ -1,0 +1,72 @@
+table {
+    margin-bottom: 20px;
+}
+.circle {
+    border-radius: 100%;
+}
+.c1 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.c2 {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    transform: translate(7.7px, -42px);
+}
+.c3 {
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    transform: translate(17px, -67px);
+}
+.line {
+    height: 2px;
+    width: 60px;
+    background-color: black;
+}
+.l1 {
+    transform: translate(-5px, -77px);
+}
+.l2 {
+    transform: translate(-5px, -77px) rotate(90deg);
+}
+
+.container_1 {
+    position: relative;
+}
+
+.c11 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.c12 {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    position: absolute;
+    top: 7.7px;
+    left: 8px;
+}
+.c13 {
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    position: absolute;
+    top: 17px;
+    left: 18px;
+}
+.l11 {
+    position: absolute;
+    top: 23px;
+    left: -5px;
+}
+.l12 {
+    height: 60px;
+    width: 2px;
+    position: absolute;
+    top: -5px;
+    left: 24px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td {
+            border: 1px solid black;
+        }
+        tr:first-child{
+            background-color: #248f8f ;
+        }
+        tr:nth-child(2){
+            background-color: #f5f524 ;
+        }
+        tr:first-child:hover{
+            filter:invert(100%);
+        }
+        tr:nth-child(2):hover{
+            filter:invert(100%);
+        }
+    </style>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Хандельди</td>
+            <td>Олексій</td>
+            <td rowspan="2">Романович</td>
+            <td></td>
+            <td rowspan="2"> - </td>
+        </tr>
+        <tr>
+            <td colspan="2">ІВ-91</td>
+            <td>ЛР-2 Варіант №24</td>
+        </tr>
+        <tr>
+            <td colspan="2"> - </td>
+            <td colspan="3"> - </td>
+        </tr>
+    </table>
+    <div class="container">
+        <div class="circle c1"> </div>
+        <div class="circle c2"> </div>
+        <div class="circle c3"> </div>
+        
+        <div class="line l1"> </div>
+        <div class="line l2"> </div>
+    </div>
+
+    <div class="container_1">
+        <div class="circle c11"> </div>
+        <div class="circle c12"> </div>
+        <div class="circle c13"> </div>
+        
+        <div class="line l11"> </div>
+        <div class="line l12"> </div>
+    </div>
+</body>
+</html>
